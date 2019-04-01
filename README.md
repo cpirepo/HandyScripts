@@ -3,5 +3,5 @@
 
 #### A place to keep handy scripts for all the platforms. 
 
-__Wheather it is bumping a filesystem on AIX, growing a logical volume on RHEL, or knarly DBAisms that are too wack to remember, this is the place to remember years of scripts long forgotten__
+_Wheather it is bumping a filesystem on AIX, growing a logical volume on RHEL, or knarly DBAisms that are too wack to remember, this is the place to remember years of scripts long forgotten_
 `
