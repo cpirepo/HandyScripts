@@ -31,9 +31,6 @@ chfs -asize=+1G $FS
 # Create collectd group
 mkgroup -A $GROUP
 
-#Usage: useradd [ -c comment ] [-d dir ] [ -e expire ] [ -g group ] [ -G group1,group2 ... ] [ -m [ -k skel_dir ] ] [ -u uid ] [ -s shell ] [ -r role1,role2 ... ] login
-#chown: zabbix is an unknown username.
-
 # Create application id with no login shell 
 /usr/sbin/useradd -c "Collectd Monitoring System" -d /opt/$USER -m -g $GROUP -s /usr/bin/rksh93 -u 1001 $USER
 
